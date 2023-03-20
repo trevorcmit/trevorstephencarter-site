@@ -1,7 +1,4 @@
-# Gatsby Starter Amsterdam
+# TrevorStephenCarter.com
 
-A basic starter using **Gatsby Theme Amsterdam**.
-
-- [Theme Documentation](https://github.com/ryanwiemer/gatsby-theme-amsterdam)
-- [Theme Website](https://amsterdam.netlify.com/)
-- [Demo](https://gatsby-starter-amsterdam.netlify.com/)
+A basic starter using **Gatsby Theme Amsterdam**, used as
+the personal website.

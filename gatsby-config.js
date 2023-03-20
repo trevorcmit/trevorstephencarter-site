@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: 'Trevor Stephen Carter',
     description:
-      'John Doe is a lifestyle photographer based in San Francisco, CA',
+      'I am a Embedded Engineer, Researcher, and Writer based in Boston, MA',
     url: 'https://gatsby-starter-amsterdam.netlify.com',
-    author: 'John Doe',
+    author: 'Trevor Stephen Carter',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'John Doe is a lifestyle photographer based in San Francisco, CA',
+    intro: 'I am a Embedded Engineer, Researcher, and Writer based in Boston, MA',
     menuLinks: [
       {
         name: 'Trevor Stephen Carter',
@@ -14,20 +14,31 @@ module.exports = {
       },
       {
         name: 'About',
-        slug: '/example/',
+        slug: '/about/',
+      },
+      {
+        name: 'Research',
+        slug: '/research/',
       },
     ],
     footerLinks: [
       {
-        name: 'Gatsby Theme Amsterdam',
-        url: 'https://github.com/ryanwiemer/gatsby-theme-amsterdam',
+        name: 'GitHub',
+        url: 'https://github.com/trevorcmit',
+      },
+      {
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/trevorstephencarter/',
       },
     ],
   },
   plugins: [
+    // `gatsby-plugin-catch-links`,
     {
       resolve: 'gatsby-theme-amsterdam',
-      options: {},
+      options: {
+        postsPerPage: 6,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -39,6 +50,13 @@ module.exports = {
         start_url: `/`,
         display: `standalone`,
         icon: require.resolve('./src/images/favicon.png'),
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `${__dirname}/src/documentation/`,
+        path: `${__dirname}/src/documentation/`,
       },
     },
   ],
