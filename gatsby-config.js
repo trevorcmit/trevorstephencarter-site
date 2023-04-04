@@ -33,7 +33,6 @@ module.exports = {
     ],
   },
   plugins: [
-    // `gatsby-plugin-catch-links`,
     {
       resolve: 'gatsby-theme-amsterdam',
       options: {
@@ -55,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `${__dirname}/src/documentation/`,
-        path: `${__dirname}/src/documentation/`,
+        name: `documentation`,
+        path: `documentation`,
       },
     },
   ],
