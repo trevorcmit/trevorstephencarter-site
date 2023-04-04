@@ -24,7 +24,3 @@ Yes. Gatsby Theme Amsterdam can be installed alongside other themes.
 Gatsby Theme Amsterdam was designed to be a minimal and clean theme geared towards photographers, artists and other creative folks. If you have an idea for an enhancement or feature that fits within that vision please log a ticket on [GitHub](https://github.com/ryanwiemer/gatsby-theme-amsterdam) or better yet submit a pull request.
 
 <hr/>
-
-### Still have a question?
-
-Send me a tweet on Twitter [@ryanwiemer](https://twitter.com/ryanwiemer).

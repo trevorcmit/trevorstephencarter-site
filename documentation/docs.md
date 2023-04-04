@@ -3,7 +3,7 @@ title: Docs
 description: Documentation for Gatsby Theme Amsterdam
 ---
 
-## Gatsby Theme Amsterdam
+## Trevor Stephen Carter
 
 A Gatsby theme for artists, photographers and other creative folks.
 

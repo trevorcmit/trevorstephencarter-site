@@ -1,17 +1,12 @@
 ---
 title: About
-description: Learn about Gatsby Theme Amsterdam
-cover: flag.png
+description: About Me
+cover: babyheadshot.jpg
 ---
 
-![](flag.png)
+![](babyheadshot.jpg)
 
-**Gatsby Theme Amsterdam** was designed to be a minimal
-and clean theme geared towards photographers, artists and other
-creative folks. Inspired by the capital city of the Netherlands known
-for its artistic heritage, impressive architecture and canals that
-criss-cross the city. Truthfully I have never visited before but it
-sounds like a pretty cool place so I decided to use the name.
+**Hello**. I am a software engineer, with background in machine learning, embedded systems, and full-stack app development. 
 
 <p>
   <iframe
@@ -24,7 +19,6 @@ sounds like a pretty cool place so I decided to use the name.
   ></iframe>
 </p>
 
-Created by **[Ryan Wiemer](https://twitter.com/ryanwiemer)**
 
 ## Features
 
@@ -32,12 +26,3 @@ Created by **[Ryan Wiemer](https://twitter.com/ryanwiemer)**
 - Optional page transitions
 - Multiple grid options to display posts
 - Customizable theme colors and typography with Theme UI
-- MDX support
-- SEO friendly component
-- Mobile menu
-- Optional scroll progress indicator
-- Optional toggle to switch color modes
-- Emotion using styled-components syntax
-- Tags
-- Pagination
-- Offline support
