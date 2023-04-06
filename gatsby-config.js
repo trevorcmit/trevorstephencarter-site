@@ -5,7 +5,7 @@ module.exports = {
     url: 'https://gatsby-starter-amsterdam.netlify.com',
     author: 'Trevor Stephen Carter',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'I am a Embedded and ML Engineer, Researcher, and Writer based in Boston, MA',
+    intro: 'THIS IS THE INTRO ON THE MAIN MENU.',
     menuLinks: [
       {
         name: 'Trevor Stephen Carter',
@@ -36,6 +36,8 @@ module.exports = {
       resolve: 'gatsby-theme-amsterdam',
       options: {
         postsPerPage: 6,
+        // grid: 'list',
+        grid: 'basic',
       },
     },
     {
@@ -43,8 +45,8 @@ module.exports = {
       options: {
         name: `Gatsby Theme Amsterdam`,
         short_name: `Amsterdam`,
-        background_color: `#f5f0eb`,
-        theme_color: `#f5f0eb`,
+        background_color: `f5f0eb`,   // previously f5f0eb
+        theme_color: `f5f0eb`,
         start_url: `/`,
         display: `standalone`,
         icon: require.resolve('./src/images/favicon.png'),

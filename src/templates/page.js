@@ -5,6 +5,7 @@ import Container from 'gatsby-theme-amsterdam/src/components/Container'
 import MDX from 'gatsby-theme-amsterdam/src/components/MDX'
 import SEO from 'gatsby-theme-amsterdam/src/components/SEO'
 
+
 const Title = styled.h1`
   font-weight: ${props => props.theme.fonts.boldWeight};
   line-height: 1.25;
@@ -21,7 +22,8 @@ const PageTemplate = ({ data }) => {
 
   try {
     ogImage = data.page.cover.childImageSharp.ogimg.src
-  } catch (error) {
+  }
+  catch (error) {
     ogImage = null
   }
 
