@@ -150,10 +150,11 @@ const WorkList = (props) => {
     ...new Set(props.projects.map((item) => item.node.category).reverse()),
   ]
 
+  // Selected Work
   return (
     <Wrapper>
       <Header>
-        <Title>Selected Work</Title>
+        <Title>TITLE CHANGE</Title> 
         <Row>
           <AnimateSharedLayout>
             <AnimatePresence>

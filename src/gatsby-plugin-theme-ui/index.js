@@ -4,20 +4,19 @@ export default {
         secondary: '#686461',
         tertiary: '#958E8E',
         highlight: '#C29967',
-        //   background: '#F5F0EB',
-        background: '#E9F3F8',
+        background: '#E9F3F8',   // original ="#F5F0EB"
         border: '#DCD8D3',
         button: '#E9E4DF',
         text: '#292929',
         code: '#E9E5E0',
         modes: {
             dark: {
-                base: '#292929',
-                secondary: '#888888',
+                base: '#292929',          // original ="#292929"
+                secondary: '#8F8F8F',     // original #888888
                 tertiary: '#555555',
-                highlight: '#C29967',
-                background: '#0a0a0a',
-                border: '#333333',
+                highlight: '#C29967', 
+                background: '#060d1a', // original #0a0a0a
+                border: '#333333',     // testing yellow, original #333333
                 button: '#101010',
                 text: '#ffffff',
                 code: '#292929',

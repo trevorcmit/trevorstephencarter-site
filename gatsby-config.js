@@ -20,6 +20,10 @@ module.exports = {
         name: 'Research',
         slug: '/research/',
       },
+      {
+        name: 'Writing',
+        slug: '/writing/',
+      },
     ],
     footerLinks: [
       {
