@@ -7,6 +7,8 @@ module.exports = {
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
     intro: 'Hello. My name is Trevor Stephen Carter.',
     landingpath: '/landing/',
+    // introImageURL: '/about/babyheadshot.jpg',
+    introImageURL: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
     menuLinks: [
       {
         name: 'Trevor Stephen Carter',
@@ -45,7 +47,7 @@ module.exports = {
       resolve: 'gatsby-theme-amsterdam',
       options: {
         postsPerPage: 6,
-        grid: 'basic', // alternative is 'list'
+        grid: 'grid', // alternative is 'list'
       },
     },
     {

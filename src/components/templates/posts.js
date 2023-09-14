@@ -9,6 +9,7 @@ import { useSiteMetadata } from '../hooks/use-site-metadata'
 import { startCase } from 'lodash'
 import MDX from 'gatsby-theme-amsterdam/src/components/MDX'
 
+
 const Title = styled.h1`
   font-weight: ${props => props.theme.fonts.boldWeight};
   line-height: 1.25;
@@ -20,7 +21,6 @@ const Title = styled.h1`
   }
 `
 
-
 const PostsPage = ({ data, pageContext }) => {
     const { intro } = useSiteMetadata()
     const posts = data.allPost.edges
@@ -30,17 +30,19 @@ const PostsPage = ({ data, pageContext }) => {
     try           { ogImage = posts[0].node.cover.childImageSharp.ogimg.src }
     catch (error) { ogImage = null }
 
+    // const { introImageURL } = useSiteMetadata()
+    // const { intro } = "Text from posts js"
+
     return (
-        <>
-            <SEO image={ogImage} title={startCase(pageContext.basePath)} />
-            <Container fullWidth noPadding>
-                {intro && <Intro text={intro} context={pageContext} />}
-                {/* <Title>{"Testing TITLE HERE"}</Title>
-                <MDX content={ landing.page.body } /> */}
-                {posts.length > 0 && <PostList posts={posts} context={pageContext} />}
-            </Container>
-            <Pagination context={pageContext} />
-        </>
+      <>
+          <SEO image={ ogImage } title={ startCase(pageContext.basePath) } />
+          <Container fullWidth noPadding>
+              {/* {intro && <Intro text={intro} context={pageContext} /> && <Image src={introImageURL} />} */}
+              {intro && <Intro text={intro} context={pageContext} />}
+              {posts.length > 0 && <PostList posts={posts} context={pageContext} />}
+          </Container>
+          <Pagination context={ pageContext } />
+      </>
     )
 }
 
